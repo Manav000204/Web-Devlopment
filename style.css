@@ -1,1 +1,29 @@
+body{
+    background-color: lightpink;
+}
+.head{
+    color: darkblue;
+}
+#bglime{
+    background-color: rgb(9, 220, 51);
+}
+#head{
+    color: red;
+}
+p{
+    color: white;
+}
+#para{
+    color: green;
+}
+#para1{
+    font-size: larger;
+    color: black;
+}
+a{
+    background-color: white;
+}
+span{
+    color: red;
+}
 
