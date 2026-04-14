@@ -6,100 +6,90 @@
 }
 
 body {
-    background: white;
-    color: gray;
+    background: #e5e5e5;
 }
 
-.container {
-    width: 90%;
-    margin: auto;
-}
-
-header {
-    background: white;
-    padding: 15px 0;
-}
-
-.nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo {
-    font-size: 22px;
-    font-weight: bold;
-}
-
-nav a {
-    margin-left: 20px;
-    text-decoration: none;
-    color: gray;
-    font-size: 15px;
-}
-
-nav a:hover {
-    color: blue;
-}
-
-/* Hero Section */
 .hero {
-    padding: 60px 0;
-}
-
-.hero-content {
     display: flex;
+    height: 100vh;
+}
+
+.left {
+    flex: 1;
+    background: #1e90d2;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
 }
 
-/* Text */
-.text {
-    max-width: 500px;
+.left img {
+    width: 70%;
 }
 
-.text h1 {
-    font-size: 36px;
-    line-height: 1.4;
+.right {
+    flex: 1;
+    background: #f1f4f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-box {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+p {
+    font-size: 14px;
+    color: #666;
     margin-bottom: 15px;
 }
 
-.text h1 span {
-    color: blue;
-}
-
-.text p {
-    font-size: 14px;
-    color: grey;
-    margin-bottom: 25px;
-}
-
-.text button {
-    padding: 12px 25px;
+input {
+    padding: 12px;
     border: none;
-    background: blue;
-    color: white;
     border-radius: 8px;
-    font-size: 14px;
+    background: #e9edf2;
+}
+
+.form-extra {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+}
+
+button {
+    padding: 14px;
+    background: #1e90d2;
+    border: none;
+    border-radius: 10px;
+    color: white;
     cursor: pointer;
 }
 
-.text button:hover {
-    background: #0056b3;
+.register {
+    text-align: center;
+    font-size: 13px;
 }
 
-.image img {
-    width: 500px;
-} 
- 
 @media (max-width: 768px) {
-    .hero-content {
+    .hero {
         flex-direction: column;
-        text-align: center;
-    }
-    .image img {
-        margin-top: 30px;
-        width: 200px;
     }
 }
-
