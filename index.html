@@ -3,43 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laundry Services</title>
+    <title>Flexbox Login</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="container nav">
-            <div class="logo">Logo</div>
-            <nav>
-                <a href="#">Home</a>
-                <a href="#">Services</a>
-                <a href="#">About Us</a>
-                <a href="#">Contact Us</a>
-            </nav>
-        </div>
-    </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container hero-content">
-            <div class="text">
-                <h1>
-                    Revitalize Your <br>
-                    Clothes with Expert <br>
-                    <span>Laundry Services!</span>
-                </h1>
-                <p>
-                    From premium dry cleaning to swift wash and fold, we deliver care and convenience.
-                    Schedule a pickup and rediscover the freshness of your clothes today!
+<section class="hero">
+    <div class="left">
+        <img src="https://thumbnail.imgbin.com/19/8/10/washing-machine-abstract-colorful-washing-machine-illustration-q9SnxZvP_t.jpg" alt="Laundry">
+    </div>
+
+    <div class="right">
+        <div class="form-box">
+            <h2>Hello Again!</h2>
+            <p>Welcome back! we missed you!</p>
+
+            <form class="form">
+                <div class="input-group">
+                    <label>Email</label>
+                    <input type="email" placeholder="Email@site.com">
+                </div>
+
+                <div class="input-group">
+                    <label>Password</label>
+                    <input type="password" placeholder="Password">
+                </div>
+
+                <div class="form-extra">
+                    <a href="#">Forgot Password</a>
+                </div>
+
+                <button type="submit">Login</button>
+
+                <p class="register">
+                    Not a member? <a href="#">Register Now</a>
                 </p>
-                <button>Book a service today!</button>
-            </div>
-
-            <div class="image">
-                <img src="https://thumbnail.imgbin.com/19/8/10/washing-machine-abstract-colorful-washing-machine-illustration-q9SnxZvP_t.jpg" alt="Laundry">
-            </div>
+            </form>
         </div>
-    </section>
+    </div>
+</section>
 
 </body>
 </html>
